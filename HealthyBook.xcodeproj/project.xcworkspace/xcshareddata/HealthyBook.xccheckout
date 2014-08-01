@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9974B2A3-0BCA-41D4-A311-2223D2D6A8DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HealthyBook</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D18E1979-D695-4204-827E-00DA825EB3F5</key>
+		<string>ssh://github.com/Dwiyer/HealthyBook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HealthyBook.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D18E1979-D695-4204-827E-00DA825EB3F5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Dwiyer/HealthyBook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D18E1979-D695-4204-827E-00DA825EB3F5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D18E1979-D695-4204-827E-00DA825EB3F5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HealthyBook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
