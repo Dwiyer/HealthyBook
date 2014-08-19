@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8432978319907683003782F3 /* MALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432977B19907683003782F3 /* MALTabBar.m */; };
+		8432978419907683003782F3 /* MALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432977E19907683003782F3 /* MALTabBarItem.m */; };
+		8432978519907683003782F3 /* MALTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432978019907683003782F3 /* MALTabBarItemModel.m */; };
+		8432978619907683003782F3 /* MALTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432978219907683003782F3 /* MALTabBarViewController.m */; };
+		8432978C19907AA4003782F3 /* InnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432978B19907AA4003782F3 /* InnerViewController.m */; };
+		8432978F19907AB1003782F3 /* OuterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432978E19907AB1003782F3 /* OuterViewController.m */; };
+		8432979219907ABE003782F3 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432979119907ABE003782F3 /* PlaceViewController.m */; };
+		8454BAC4198F1D71005E611C /* header_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8454BAC3198F1D71005E611C /* header_01.jpg */; };
+		8454BAC6198F1F04005E611C /* header_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8454BAC5198F1F04005E611C /* header_02.jpg */; };
 		8495D84F198B24F500836CCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8495D84E198B24F500836CCD /* Foundation.framework */; };
 		8495D851198B24F500836CCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8495D850198B24F500836CCD /* CoreGraphics.framework */; };
 		8495D853198B24F500836CCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8495D852198B24F500836CCD /* UIKit.framework */; };
@@ -71,6 +80,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8432977A19907683003782F3 /* MALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBar.h; sourceTree = "<group>"; };
+		8432977B19907683003782F3 /* MALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBar.m; sourceTree = "<group>"; };
+		8432977C19907683003782F3 /* MALTabBarChinldVIewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarChinldVIewControllerDelegate.h; sourceTree = "<group>"; };
+		8432977D19907683003782F3 /* MALTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarItem.h; sourceTree = "<group>"; };
+		8432977E19907683003782F3 /* MALTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBarItem.m; sourceTree = "<group>"; };
+		8432977F19907683003782F3 /* MALTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarItemModel.h; sourceTree = "<group>"; };
+		8432978019907683003782F3 /* MALTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBarItemModel.m; sourceTree = "<group>"; };
+		8432978119907683003782F3 /* MALTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarViewController.h; sourceTree = "<group>"; };
+		8432978219907683003782F3 /* MALTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBarViewController.m; sourceTree = "<group>"; };
+		8432978A19907AA4003782F3 /* InnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerViewController.h; sourceTree = "<group>"; };
+		8432978B19907AA4003782F3 /* InnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerViewController.m; sourceTree = "<group>"; };
+		8432978D19907AB1003782F3 /* OuterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OuterViewController.h; sourceTree = "<group>"; };
+		8432978E19907AB1003782F3 /* OuterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OuterViewController.m; sourceTree = "<group>"; };
+		8432979019907ABE003782F3 /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		8432979119907ABE003782F3 /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
+		8454BAC3198F1D71005E611C /* header_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header_01.jpg; sourceTree = "<group>"; };
+		8454BAC5198F1F04005E611C /* header_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header_02.jpg; sourceTree = "<group>"; };
 		8495D84B198B24F500836CCD /* HealthyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8495D84E198B24F500836CCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8495D850198B24F500836CCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -158,6 +184,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8432977919907683003782F3 /* MALTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8432977A19907683003782F3 /* MALTabBar.h */,
+				8432977B19907683003782F3 /* MALTabBar.m */,
+				8432977C19907683003782F3 /* MALTabBarChinldVIewControllerDelegate.h */,
+				8432977D19907683003782F3 /* MALTabBarItem.h */,
+				8432977E19907683003782F3 /* MALTabBarItem.m */,
+				8432977F19907683003782F3 /* MALTabBarItemModel.h */,
+				8432978019907683003782F3 /* MALTabBarItemModel.m */,
+				8432978119907683003782F3 /* MALTabBarViewController.h */,
+				8432978219907683003782F3 /* MALTabBarViewController.m */,
+			);
+			path = MALTabBarController;
+			sourceTree = "<group>";
+		};
+		8432978719907A4F003782F3 /* Inner */ = {
+			isa = PBXGroup;
+			children = (
+				8432978A19907AA4003782F3 /* InnerViewController.h */,
+				8432978B19907AA4003782F3 /* InnerViewController.m */,
+			);
+			name = Inner;
+			sourceTree = "<group>";
+		};
+		8432978819907A5E003782F3 /* Outer */ = {
+			isa = PBXGroup;
+			children = (
+				8432978D19907AB1003782F3 /* OuterViewController.h */,
+				8432978E19907AB1003782F3 /* OuterViewController.m */,
+			);
+			name = Outer;
+			sourceTree = "<group>";
+		};
+		8432978919907A66003782F3 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				8432979019907ABE003782F3 /* PlaceViewController.h */,
+				8432979119907ABE003782F3 /* PlaceViewController.m */,
+			);
+			name = Place;
+			sourceTree = "<group>";
+		};
 		8495D842198B24F500836CCD = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +260,9 @@
 		8495D854198B24F500836CCD /* HealthyBook */ = {
 			isa = PBXGroup;
 			children = (
+				8432978919907A66003782F3 /* Place */,
+				8432978819907A5E003782F3 /* Outer */,
+				8432978719907A4F003782F3 /* Inner */,
 				8495D8D5198B776600836CCD /* Control */,
 				8495D8CA198B3D7700836CCD /* Home */,
 				8495D887198B2A2800836CCD /* Resources */,
@@ -248,6 +320,8 @@
 		8495D887198B2A2800836CCD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8454BAC5198F1F04005E611C /* header_02.jpg */,
+				8454BAC3198F1D71005E611C /* header_01.jpg */,
 				8495D888198B2A2800836CCD /* blurred_background.png */,
 				8495D889198B2A2800836CCD /* camera_disabled@2x.png */,
 				8495D88A198B2A2800836CCD /* camera_enabled@2x.png */,
@@ -307,6 +381,7 @@
 		8495D8D5198B776600836CCD /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				8432977919907683003782F3 /* MALTabBarController */,
 				8495D880198B27EF00836CCD /* RKTabView */,
 				8495D8CE198B775B00836CCD /* SAMultisectorControl */,
 			);
@@ -413,6 +488,7 @@
 				8495D8C1198B2A2800836CCD /* user_disabled@2x.png in Resources */,
 				8495D8B9198B2A2800836CCD /* tab_contrast_enabled@2x.png in Resources */,
 				8495D8C4198B2A2800836CCD /* watch_disabled@2x.png in Resources */,
+				8454BAC6198F1F04005E611C /* header_02.jpg in Resources */,
 				8495D8C0198B2A2800836CCD /* twitter@2x.png in Resources */,
 				8495D8B7198B2A2800836CCD /* tab_brightness_enabled@2x.png in Resources */,
 				8495D8C3198B2A2800836CCD /* visa@2x.png in Resources */,
@@ -421,6 +497,7 @@
 				8495D8AD198B2A2800836CCD /* facebook@2x.png in Resources */,
 				8495D8C7198B2A2800836CCD /* wu@2x.png in Resources */,
 				8495D8A9198B2A2800836CCD /* camera_disabled@2x.png in Resources */,
+				8454BAC4198F1D71005E611C /* header_01.jpg in Resources */,
 				8495D8BA198B2A2800836CCD /* tab_filters_disabled@2x.png in Resources */,
 				8495D8C2198B2A2800836CCD /* user_enabled@2x.png in Resources */,
 			);
@@ -442,12 +519,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8495D886198B27EF00836CCD /* RKTabView.m in Sources */,
+				8432978619907683003782F3 /* MALTabBarViewController.m in Sources */,
+				8432978419907683003782F3 /* MALTabBarItem.m in Sources */,
+				8432978319907683003782F3 /* MALTabBar.m in Sources */,
 				8495D8D4198B775B00836CCD /* SAMultisectorControl.m in Sources */,
 				8495D85F198B24F500836CCD /* AppDelegate.m in Sources */,
 				8495D885198B27EF00836CCD /* RKTabItem.m in Sources */,
+				8432978519907683003782F3 /* MALTabBarItemModel.m in Sources */,
+				8432978C19907AA4003782F3 /* InnerViewController.m in Sources */,
 				8495D87F198B27AC00836CCD /* MainViewController.m in Sources */,
 				8495D8D3198B775B00836CCD /* SAMath.m in Sources */,
 				8495D85B198B24F500836CCD /* main.m in Sources */,
+				8432979219907ABE003782F3 /* PlaceViewController.m in Sources */,
+				8432978F19907AB1003782F3 /* OuterViewController.m in Sources */,
 				8495D8CD198B3D8D00836CCD /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

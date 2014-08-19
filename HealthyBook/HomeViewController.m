@@ -34,6 +34,8 @@
     // Do any additional setup after loading the view.
     [self setupDesign];
     [self setupMultisectorControl];
+    
+    [self testVarList:3 name:@"wo",@"shi",@"shui"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -96,6 +98,18 @@
 //            self.priceEndLable.text = endValue;
 //        }
 //    }
+}
+
+- (void)testVarList:(int)num name:(NSString *)strs,...
+{
+//    va_list args;
+//    va_start(args, strs);
+//    
+//    for (NSString *str = strs; str != nil; str = va_arg(args,NSString*))
+//    {
+//        NSLog(@"arg:  %@",str);
+//    }
+//    va_end(args);
 }
 
 - (IBAction)pageClicked:(id)sender {

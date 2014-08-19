@@ -8,18 +8,39 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "MALTabBarItemModel.h"
+#import "MALTabBarViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    // Override point for customization after application launch.
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    
-//    self.window.rootViewController = [[MainViewController alloc] init];
-//    
-//    [self.window makeKeyAndVisible];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Override point for customization after application launch.
+    NSMutableArray *itemsArray = [[NSMutableArray alloc] init];
+    NSArray *controllerArray = [NSArray arrayWithObjects:@"HomeViewController",@"InnerViewController",@"OuterViewController", @"PlaceViewController" ,nil];//类名数组
+    NSArray *titleArray = [NSArray arrayWithObjects:@"第一个",@"第二个",@"第三个", @"第四个",  nil];//item标题数组
+    NSArray *normalImageArray = [NSArray arrayWithObjects:@"tab_filters_enabled@2x.png",@"tab_frame_enabled@2x.png",@"tab_rotate_enabled@2x.png", @"tab_contrast_enabled@2x.png", nil];//item 正常状态下的背景图片
+    NSArray *selectedImageArray = [NSArray arrayWithObjects:@"tab_filters_disabled@2x.png", @"tab_frame_disabled@2x.png",@"tab_rotate_disabled@2x.png", @"tab_contrast_disabled@2x.png",nil];//item被选中时的图片名称
+    
+    for (int i = 0; i< controllerArray.count; i++) {
+        
+        MALTabBarItemModel *itemModel = [[MALTabBarItemModel alloc] init];
+        itemModel.controllerName = controllerArray[i];
+        itemModel.itemTitle = titleArray[i];
+        itemModel.itemImageName = normalImageArray[i];
+        itemModel.selectedItemImageName = selectedImageArray[i];
+        [itemsArray addObject:itemModel];
+    }
+    
+    
+    MALTabBarViewController *tabBarController = [[MALTabBarViewController alloc] initWithItemModels:itemsArray defaultSelectedIndex:1];
+    [tabBarController setTabBarBgImage:@"tabbar_background_os7@2x.png"];//设置tabBar的背景图片
+    self.window.rootViewController = tabBarController;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

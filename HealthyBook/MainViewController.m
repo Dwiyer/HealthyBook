@@ -61,6 +61,8 @@
     
     [self addChildViewController:home];
     
+//    [self.view addSubview:home.view];
+    
     self.standardView.delegate = self;
 }
 
@@ -68,15 +70,14 @@
 
 - (void)tabView:(RKTabView *)tabView tabBecameEnabledAtIndex:(int)index tab:(RKTabItem *)tabItem {
     NSLog(@"Tab № %d became enabled on tab view", index);
-    if (index > 0) {
-        return;
-    }
-    UIView *tabbedView = [[self.childViewControllers objectAtIndex:index] view];
-    [self.view addSubview:tabbedView];
+    UIViewController *enabledController = self.childViewControllers[index];
+    [self.view addSubview:enabledController.view];
 }
 
 - (void)tabView:(RKTabView *)tabView tabBecameDisabledAtIndex:(int)index tab:(RKTabItem *)tabItem {
     NSLog(@"Tab № %d became disabled on tab view", index);
+    UIViewController *disabledController = self.childViewControllers[index];
+    [disabledController.view removeFromSuperview];
 }
 
 @end
