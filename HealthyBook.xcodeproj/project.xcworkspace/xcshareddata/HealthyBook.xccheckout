@@ -10,29 +10,29 @@
 	<string>HealthyBook</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D18E1979-D695-4204-827E-00DA825EB3F5</key>
-		<string>ssh://github.com/Dwiyer/HealthyBook.git</string>
+		<key>FB1AF9BB03835FAA26AFA03324B221BBC8C4F04C</key>
+		<string>github.com:Dwiyer/HealthyBook.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HealthyBook.xcodeproj/project.xcworkspace</string>
+	<string>HealthyBook.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D18E1979-D695-4204-827E-00DA825EB3F5</key>
+		<key>FB1AF9BB03835FAA26AFA03324B221BBC8C4F04C</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/Dwiyer/HealthyBook.git</string>
+	<string>github.com:Dwiyer/HealthyBook.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D18E1979-D695-4204-827E-00DA825EB3F5</string>
+	<string>FB1AF9BB03835FAA26AFA03324B221BBC8C4F04C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D18E1979-D695-4204-827E-00DA825EB3F5</string>
+			<string>FB1AF9BB03835FAA26AFA03324B221BBC8C4F04C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HealthyBook</string>
 		</dict>

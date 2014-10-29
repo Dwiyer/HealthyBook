@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "SAMultisectorControl/SAMultisectorControl.h"
+#import "DWAlertView.h"
 
 @interface HomeViewController ()
 @property (weak, nonatomic) IBOutlet SAMultisectorControl *multisectorControl;
@@ -24,6 +25,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:0];
     }
     return self;
 }
@@ -32,10 +34,27 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self setupDesign];
-    [self setupMultisectorControl];
+    UIButton * loginBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    loginBtn.frame=CGRectMake(10, 10, 100, 50);
+    loginBtn.center = self.view.center;
+//    loginBtn.backgroundColor=[UIColor greenColor];
+    [loginBtn setTitle:@"Click Me" forState:UIControlStateNormal];
+    [loginBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:loginBtn];
+    [loginBtn addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
     
-    [self testVarList:3 name:@"wo",@"shi",@"shui"];
+//    [self setupDesign];
+//    [self setupMultisectorControl];
+//    
+//    [self testVarList:3 name:@"wo",@"shi",@"shui"];
+}
+/**
+ * 按钮事件绑定方法
+ *
+ */
+- (void)clicked:(UIButton *)button
+{
+    [DWAlertView showAlertViewWithTitle:@"Hi" message:@"How are you?" clickedBlock:nil cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel",@"De", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -115,6 +134,6 @@
 - (IBAction)pageClicked:(id)sender {
     self.pageControl = sender;
     self.myImageView.backgroundColor = self.pageControl.currentPage == 1 ? [UIColor redColor] : [UIColor greenColor];
-    NSLog(@"%i",self.pageControl.currentPage);
+    NSLog(@"%li",(long)self.pageControl.currentPage);
 }
 @end
