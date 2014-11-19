@@ -14,3 +14,11 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define CUR_FUNCTION (NSLog(@"%s",__func__)) //__FUNCTION__   __PRETTY_FUNCTION__
+#else
+#define NSLog(...)
+#endif

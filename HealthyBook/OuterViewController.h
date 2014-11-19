@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DWBaseTableViewController.h"
 
-@interface OuterViewController : UIViewController
+@interface OuterViewController : DWBaseTableViewController
 
 @end

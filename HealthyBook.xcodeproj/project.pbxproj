@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840261D31A01D10200F36242 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 840261D21A01D10200F36242 /* CellModel.m */; };
+		840261D61A01D2E000F36242 /* DWBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840261D51A01D2E000F36242 /* DWBaseTableViewController.m */; };
+		840261DC1A01D9B200F36242 /* DWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840261DB1A01D9B200F36242 /* DWAlertView.m */; };
+		840261DF1A01D9D700F36242 /* DWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840261DE1A01D9D700F36242 /* DWTableViewCell.m */; };
 		8432978319907683003782F3 /* MALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432977B19907683003782F3 /* MALTabBar.m */; };
 		8432978419907683003782F3 /* MALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432977E19907683003782F3 /* MALTabBarItem.m */; };
 		8432978519907683003782F3 /* MALTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432978019907683003782F3 /* MALTabBarItemModel.m */; };
@@ -63,10 +67,17 @@
 		8495D8D3198B775B00836CCD /* SAMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495D8D0198B775B00836CCD /* SAMath.m */; };
 		8495D8D4198B775B00836CCD /* SAMultisectorControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495D8D2198B775B00836CCD /* SAMultisectorControl.m */; };
 		84BB4C1919A49F24008F5531 /* WallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB4C1819A49F24008F5531 /* WallViewController.m */; };
-		84F2782619FF7BA200A604DF /* DWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2782519FF7BA200A604DF /* DWAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840261D11A01D10200F36242 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		840261D21A01D10200F36242 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		840261D41A01D2E000F36242 /* DWBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBaseTableViewController.h; sourceTree = "<group>"; };
+		840261D51A01D2E000F36242 /* DWBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBaseTableViewController.m; sourceTree = "<group>"; };
+		840261DA1A01D9B200F36242 /* DWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAlertView.h; sourceTree = "<group>"; };
+		840261DB1A01D9B200F36242 /* DWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAlertView.m; sourceTree = "<group>"; };
+		840261DD1A01D9D700F36242 /* DWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTableViewCell.h; sourceTree = "<group>"; };
+		840261DE1A01D9D700F36242 /* DWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTableViewCell.m; sourceTree = "<group>"; };
 		8432977A19907683003782F3 /* MALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBar.h; sourceTree = "<group>"; };
 		8432977B19907683003782F3 /* MALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBar.m; sourceTree = "<group>"; };
 		8432977C19907683003782F3 /* MALTabBarChinldVIewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarChinldVIewControllerDelegate.h; sourceTree = "<group>"; };
@@ -142,8 +153,6 @@
 		8495D8D2198B775B00836CCD /* SAMultisectorControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMultisectorControl.m; sourceTree = "<group>"; };
 		84BB4C1719A49F24008F5531 /* WallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallViewController.h; sourceTree = "<group>"; };
 		84BB4C1819A49F24008F5531 /* WallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallViewController.m; sourceTree = "<group>"; };
-		84F2782419FF7BA200A604DF /* DWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAlertView.h; sourceTree = "<group>"; };
-		84F2782519FF7BA200A604DF /* DWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +169,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840261CF1A01D07200F36242 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840261D41A01D2E000F36242 /* DWBaseTableViewController.h */,
+				840261D51A01D2E000F36242 /* DWBaseTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		840261D01A01D09A00F36242 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840261D11A01D10200F36242 /* CellModel.h */,
+				840261D21A01D10200F36242 /* CellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		840261D71A01D79B00F36242 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				840261DD1A01D9D700F36242 /* DWTableViewCell.h */,
+				840261DE1A01D9D700F36242 /* DWTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		840261D81A01D8D400F36242 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				840261D91A01D9B200F36242 /* DWAlertView */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		840261D91A01D9B200F36242 /* DWAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				840261DA1A01D9B200F36242 /* DWAlertView.h */,
+				840261DB1A01D9B200F36242 /* DWAlertView.m */,
+			);
+			path = DWAlertView;
+			sourceTree = "<group>";
+		};
 		8432977919907683003782F3 /* MALTabBarController */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,18 +410,12 @@
 		84F2781F19FF7B3600A604DF /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				84F2782319FF7BA200A604DF /* DWAlertView */,
+				840261D81A01D8D400F36242 /* Utility */,
+				840261D71A01D79B00F36242 /* View */,
+				840261D01A01D09A00F36242 /* Model */,
+				840261CF1A01D07200F36242 /* Controller */,
 			);
 			path = libs;
-			sourceTree = "<group>";
-		};
-		84F2782319FF7BA200A604DF /* DWAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				84F2782419FF7BA200A604DF /* DWAlertView.h */,
-				84F2782519FF7BA200A604DF /* DWAlertView.m */,
-			);
-			path = DWAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,19 +519,22 @@
 				8495D886198B27EF00836CCD /* RKTabView.m in Sources */,
 				8432978619907683003782F3 /* MALTabBarViewController.m in Sources */,
 				8432978419907683003782F3 /* MALTabBarItem.m in Sources */,
-				84F2782619FF7BA200A604DF /* DWAlertView.m in Sources */,
 				8432978319907683003782F3 /* MALTabBar.m in Sources */,
 				8495D8D4198B775B00836CCD /* SAMultisectorControl.m in Sources */,
 				8495D85F198B24F500836CCD /* AppDelegate.m in Sources */,
 				8495D885198B27EF00836CCD /* RKTabItem.m in Sources */,
 				8432978519907683003782F3 /* MALTabBarItemModel.m in Sources */,
+				840261DC1A01D9B200F36242 /* DWAlertView.m in Sources */,
 				8432978C19907AA4003782F3 /* InnerViewController.m in Sources */,
 				8495D87F198B27AC00836CCD /* MainViewController.m in Sources */,
+				840261D31A01D10200F36242 /* CellModel.m in Sources */,
+				840261D61A01D2E000F36242 /* DWBaseTableViewController.m in Sources */,
 				8495D8D3198B775B00836CCD /* SAMath.m in Sources */,
 				8495D85B198B24F500836CCD /* main.m in Sources */,
 				8432979219907ABE003782F3 /* PlaceViewController.m in Sources */,
 				8432978F19907AB1003782F3 /* OuterViewController.m in Sources */,
 				84BB4C1919A49F24008F5531 /* WallViewController.m in Sources */,
+				840261DF1A01D9D700F36242 /* DWTableViewCell.m in Sources */,
 				8495D8CD198B3D8D00836CCD /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

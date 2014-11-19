@@ -18,20 +18,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//
-//    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-//    HomeViewController *home = [[HomeViewController alloc] init];
-//    InnerViewController *inner = [[InnerViewController alloc] init];
-//    OuterViewController *outer = [[OuterViewController alloc] init];
-//    WallViewController *wall = [[WallViewController alloc] init];
-//    PlaceViewController *place = [[PlaceViewController alloc] init];
-//    [tabBarController setViewControllers:@[home, inner, outer, wall, place]];
-//    self.window.rootViewController = tabBarController;
-//    
-//    [self.window makeKeyAndVisible];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    HomeViewController *home = [[HomeViewController alloc] init];
+    InnerViewController *inner = [[InnerViewController alloc] init];
+    OuterViewController *outer = [[OuterViewController alloc] init];
+    WallViewController *wall = [[WallViewController alloc] init];
+    PlaceViewController *place = [[PlaceViewController alloc] init];
+    [tabBarController setViewControllers:@[home, inner, outer, wall, place]];
+    self.window.rootViewController = tabBarController;
     
+    [self.window makeKeyAndVisible];
+    
+//    NSLog(@"size of the type: %lu",sizeof(@encode(NSDictionary)));
+    
+//    NSAssert(<#condition#>, <#desc, ...#>)
+    NSNumber *numOne = [NSNumber numberWithInt:11];
+    NSNumber *numTwo = [NSNumber numberWithInt:11];
+
+    NSLog(@"one=%p two=%p",numOne,numTwo);
     return YES;
 }
 

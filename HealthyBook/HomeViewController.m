@@ -45,7 +45,7 @@
     
 //    [self setupDesign];
 //    [self setupMultisectorControl];
-//    
+//
 //    [self testVarList:3 name:@"wo",@"shi",@"shui"];
 }
 /**

@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "RKTabView/RKTabView.h"
 #import "HomeViewController.h"
+@compatibility_alias HomeController HomeViewController;
 
 @interface MainViewController () <RKTabViewDelegate>
 
@@ -17,8 +18,22 @@
 
 @end
 
-@implementation MainViewController
+@interface MainViewController () {
+//    @public
+}
 
+@end
+
+
+@implementation MainViewController {
+//    @public Method
+}
+
+//- (void)loadView
+//{
+//    HomeController *home = [[HomeController alloc] init];
+//    [self presentViewController:home animated:YES completion:nil];
+//}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
